@@ -1,0 +1,51 @@
+.box{
+            width: 300px;
+            padding: 10px 15px;
+            border-radius: 12px;
+            box-shadow: 0 2px 100px gold;
+        }
+
+        img{
+            width: 100%;
+            height: 250px;
+            width: 300px;
+        }
+        #list{
+            display: flex;
+            justify-content: space-around;
+          list-style-type: none;
+        }
+        body{
+            background: linear-gradient(to right,blue,red);
+        }
+        #car-title{
+   text-align: center;
+   color: gold;
+   font-size: 55px;
+        }
+        h2{
+            color: gold;
+        }
+        p{
+            color: orange;
+        }
+        #btn{
+            font-family: 'Montserrat';
+            font-size: 18px;
+            margin-left: 630px;
+            margin-top: -25px;
+            position: absolute;
+            width: 130px;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            background-color:firebrick;
+            color: #fff;
+        }
+        .qator-2:active{
+         transform: rotateZ(330deg);
+         display: none;
+        }
+        .qator-2{
+            margin-top: -250px;
+        }
