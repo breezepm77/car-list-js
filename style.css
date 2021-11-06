@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 .box{
             width: 300px;
             padding: 10px 15px;
             border-radius: 12px;
-            box-shadow: 0 2px 100px rgb(255, 16, 16);
+            
+        }
+        .box:hover{
+            box-shadow: 10px 2px 30px white;
+            transition: .5s ease all;
         }
 
         img{
@@ -16,18 +22,21 @@
           list-style-type: none;
         }
         body{
-            background: lime;
+            background: black;
         }
         #car-title{
    text-align: center;
-   color: red;
+   color: white;
+   font-family: 'Permanent Marker', cursive;
    font-size: 55px;
         }
         h2{
-            color: red;
+            color: white;
+            font-family: 'Permanent Marker', cursive;
         }
         p{
-            color: red;
+            color: white;
+            font-family: 'Architects Daughter', cursive;
         }
         #btn{
             font-family: 'Montserrat';
@@ -39,7 +48,7 @@
             height: 40px;
             border-radius: 5px;
             border: none;
-            background-color:rgb(255, 16, 16);
+            background-color:black;
             color: #fff;
         }
         .qator-2:active{
@@ -47,5 +56,6 @@
          display: none;
         }
         .qator-2{
-            margin-top: -250px;
+            position: absolute;
+            margin-left: -300px;
         }
